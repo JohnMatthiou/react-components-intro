@@ -6,7 +6,7 @@
 // import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 import Layout from "./components/Layout.tsx";
-import CounterAdvancedWithCustomHook from "./components/CounterAdvancedWithCustomHook.tsx";
+// import CounterAdvancedWithCustomHook from "./components/CounterAdvancedWithCustomHook.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
 // import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
@@ -14,7 +14,7 @@ import CounterAdvancedWithCustomHook from "./components/CounterAdvancedWithCusto
 // import NameChanger from "./components/NameChanger.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
-
+import CounterWithReducer from "./components/CounterWithReducer";
 
 function App() {
 
@@ -39,7 +39,8 @@ function App() {
             {/*<CounterWithMoreStates/>*/}
             {/*<CounterAdvanced/>*/}
             {/*<CounterWithCustomHook/>*/}
-            <CounterAdvancedWithCustomHook/>
+            {/*<CounterAdvancedWithCustomHook/>*/}
+            <CounterWithReducer />
         </Layout>
 
     </>
