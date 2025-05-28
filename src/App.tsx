@@ -14,7 +14,8 @@ import Layout from "./components/Layout.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
-import CounterWithReducer from "./components/CounterWithReducer";
+// import CounterWithReducer from "./components/CounterWithReducer";
+import Todo from "./components/Todo/Todo.tsx";
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
             {/*<CounterAdvanced/>*/}
             {/*<CounterWithCustomHook/>*/}
             {/*<CounterAdvancedWithCustomHook/>*/}
-            <CounterWithReducer />
+            {/*<CounterWithReducer />*/}
+            <Todo/>
         </Layout>
 
     </>
